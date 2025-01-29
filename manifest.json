@@ -1,0 +1,23 @@
+{
+    "name": "Linktree Extensão",
+    "description": "Uma simples extensão para acessar seus links socias",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "assets/js/background.js" 
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "assets/icons/icon_16.png",
+            "32": "assets/icons/icon_32.png",
+            "48": "assets/icons/icon_48.png",
+            "128": "assets/icons/icon_128.png"
+        }
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ] 
+}
